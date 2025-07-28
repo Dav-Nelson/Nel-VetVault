@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.collapsible {
+    background-color: #00796b;
+    color: #fff;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.collapsible:hover, .collapsible.active {
+    background-color: #004d40;
+}
+
+.content {
+    display: none;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-left: 3px solid #00796b;
+    border-radius: 0 0 10px 10px;
+}
+
+.search-container {
+    margin: 10px 0;
+}
+
+#search100 {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search200 {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search300 {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search400 {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search500 {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search600 {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.subject-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subject-card:hover {
+    background-color: #e0f2f1;
+    transform: scale(1.02);
+}
+
+.about-section {
+    background-color: #ffffff;
+    margin: 40px 20px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section h2 {
+    color: #004d40;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+}
+
+.about-section p {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-family:monospace;
+}
+
+.creator-signature {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.semester-toggle {
+    background-color: #00695c;
+    color: white;
+    padding: 12px 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.semester-toggle:hover {
+    background-color: #004d40;
+}
+
+.semester-content {
+    display: none;
+    padding: 10px 10px 20px 10px;
+    background-color: #fafafa;
+    border-left: 3px solid #80cbc4;
+    border-radius: 0 0 10px 10px;
+}

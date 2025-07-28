@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nel VetVault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nel VetVault</h1>
+        <p>The one-stop resource hub for Veterinary Medicine students.</p>
+    </header>
+
+    <main>
+        <section class="level-section">
+            <button class="collapsible">100 Level</button>
+            <div class="content">
+                <div class="search-container">
+                    <input type="text" id="search100" placeholder="Search 100 Level Courses..." onkeyup="filterSubjects('100')">
+                </div>
+
+                <!-- First Semester -->
+                <button class="semester-toggle">First Semester</button>
+                <div class="semester-content" data-semester="first" data-level="100">
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/BIO 101')">
+                        <h3>General Biology I - BIO 101</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/MTH 101')">
+                        <h3>Elementary Mathematics I - MTH 101</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/MTH 101')">
+                        <h3>Physical Chemistry I - CHM 101</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/CHEM 103')">
+                        <h3>Practical Physical Chemistry - CHM 103</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/PHY 101')">
+                        <h3>General Physics I - PHY 101M</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/MTH 101')">
+                        <h3>General Physics II - PHY 103M</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/MTH 101')">
+                        <h3>General Physics Laboratory I - PHY 107</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/GST 101')">
+                        <h3>Use of English - GST 101</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/GST 103')">
+                        <h3>Nigerian People & Cultures - GST 103</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/MTH 101')">
+                        <h3>History & Philosophy of Science - GST 104</h3>
+                    </div>
+                </div>
+
+                <!-- Second Semester -->
+
+                <button class="semester-toggle">Second Semester</button>
+                <div class="semester-content" data-semester="second" data-level="100">
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/CHEM 102')">
+                        <h3>Organic Chemistry I - CHM 102</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/CHEM 104')">
+                        <h3>Practical Organic Chemistry I - CHM 104</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/CHEM 105')">
+                        <h3>Inorganic Chemistry I - CHM 105</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/BIO 102')">
+                        <h3>Practical Inorganic Chemistry - CHM 106</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/BIO 102')">
+                        <h3>General Biology II - BIO 102</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/BIO 102')">
+                        <h3>Genetics - BIO 104</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/BIO 102')">
+                        <h3>Practical Biology II - BIO 105</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/PHY 102M')">
+                        <h3>General Physics II - PHY 102</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/MTH 102')">
+                        <h3>Elementary Mathematics III - MTH 103</h3>
+                    </div>
+
+                    <div class="subject-card level-100" onclick="openLink('https://drive.google.com/GST 105')">
+                        <h3>Philosophy & Logic - GST 102</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="level-section">
+            <button class="collapsible">200 Level</button>
+            <div class="content">
+                <div class="search-container">
+                    <input type="text" id="search200" placeholder="Search 200 Level Courses..." onkeyup="filterSubjects('200')">
+                </div>
+
+                <!-- First Semester -->
+                <button class="semester-toggle">First Semester</button>
+                <div class="semester-content" data-semester="first" data-level="200" style="display: none;">
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VAN 201')">
+                        <h3>Veterinary Gross Anatomy I - VAN 201</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VAN 203')">
+                        <h3>Veterinary Microanatomy I - VAN 203</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPP 201')">
+                        <h3>General Physiology - VPP 201</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VTG 203')">
+                        <h3>Animal Husbandry I - VTG 203</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPP 205')">
+                        <h3>Veterinary Biochemistry I - VPP 205</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPP 203')">
+                        <h3>Molecular & Cell Biology - VPP 203</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPH 201')">
+                        <h3>Introduction to Computer - VPH 201</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VMS 201')">
+                        <h3>Introduction & History of Vet. Science - VMS 201</h3>
+                    </div>
+
+                    <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VMS 203')">
+                        <h3>Animal Handling & Behaviour - VMS 203</h3>
+                    </div>
+                    </div>
+
+                <!-- Second Semester -->
+                <button class="semester-toggle">Second Semester</button>
+                <div class="semester-content" data-semester="second" data-level="200" style="display: none;">
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPP 202')">
+                    <h3>Veterinary Physiology - VPP 202</h3>
+                </div>
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPP 208')">
+                    <h3>Radiation Biology - VPP 208</h3>
+                </div>
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VTG 202')">
+                    <h3>Animal Husbandry II - VTG 202</h3>
+                </div>
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPP 204')">
+                    <h3>Avian & Fish Physiology - VPP 204</h3>
+                </div>
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VAN 206')">
+                    <h3>Veterinary Embryology - VAN 206</h3>
+                </div>
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VAN 204')">
+                    <h3>Veterinary Microanatomy II - VAN 204</h3>
+                </div>
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VAN 202')">
+                    <h3>Veterinary Gross Anatomy II - VAN 202</h3>
+                </div>
+
+                <div class="subject-card level-200" onclick="openLink('https://drive.google.com/VPP 206')">
+                    <h3>Veterinary Biochemistry - VPP 206</h3>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="level-section">
+        <button class="collapsible">300 Level</button>
+            <div class="content">
+                <div class="search-container">
+                    <input type="text" id="search300" placeholder="Search 300 Level Courses..." onkeyup="filterSubjects('300')">
+                </div>
+
+                <!-- First Semester -->
+                <button class="semester-toggle">First Semester</button>
+                <div class="semester-content" data-semester="first" data-level="300" style="display: none;">
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPP 301')">
+                        <h3>Veterinary Physiology II - VPP 301</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPH 301')">
+                        <h3>Animal Welfare - VPH 301</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPE 301')">
+                        <h3>Introductory Parasitology - VPE 301</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VAN 303')">
+                        <h3>Avian & Fish Anatomy - VAN 303</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPP 307')">
+                        <h3>Biochemistry of Specialized Tissues - VPP 307</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPP 303')">
+                        <h3>General Pharmacology - VPP 303</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VAN 301')">
+                        <h3>Comparative Veterinary Anatomy - VAN 301</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VTG 301')">
+                        <h3>Avian Production & Health - VTG 301</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPP 305')">
+                        <h3>Veterinary Biochemistry Lab - VPP 305</h3>
+                    </div>
+                </div>
+
+                <!-- Second Semester -->
+                <button class="semester-toggle">Second Semester</button>
+                <div class="semester-content" data-semester="second" data-level="300" style="display: none;">
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VMP 302')">
+                        <h3>General Pathology - VMP 302</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VMP 304')">
+                        <h3>General Microbiology - VMP 304</h3>
+                    </div>
+
+                     <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPP 302')">
+                        <h3>Veterinary Physiology - VMP 302</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VMP 306')">
+                        <h3>Veterinary Immunology - VMP 306</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPP 304')">
+                        <h3>Systemic Pharmacology - VPP 304</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPE 304')">
+                        <h3>Veterinary Helminthology - VPE 304</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VPE 302')">
+                        <h3>Veterinary Protozoology - VPE 302</h3>
+                    </div>
+
+                    <div class="subject-card level-300" onclick="openLink('https://drive.google.com/VTG 304')">
+                        <h3>Animal Breeding & Genetics - VTG 304</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="level-section">
+            <button class="collapsible">400 Level</button>
+            <div class="content">
+                <div class="search-container">
+                    <input type="text" id="search400" placeholder="Search 400 Level Courses..." onkeyup="filterSubjects('400')">
+                </div>
+
+                <!-- First Semester -->
+                <button class="semester-toggle">First Semester</button>
+                <div class="semester-content" data-semester="first" data-level="400" style="display: none;">
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPP 401')">
+                        <h3>Veterinary Chemotherapy - VPP 401</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPH 401')">
+                        <h3>Biostatistics - VPH 401</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMS 401')">
+                        <h3>Principles of Veterinary Medicine - VMS 401</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMS 403')">
+                        <h3>Principles of Surgery - VMS 403</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPE 403')">
+                        <h3>Veterinary Entomology - VPE 403</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPE 405')">
+                        <h3>Diagnostic Veterinary Parasitology - VPE 405</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMP 401')">
+                        <h3>Systemic Veterinary Pathology I - VMP 401</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMP 403')">
+                        <h3>Vet. Bacteriology & Mycology - VMP 403</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPE 401')">
+                        <h3>Veterinary Helminthology II - VPE 401</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMP 405')">
+                        <h3>Veterinary Virology - VMP 405</h3>
+                    </div>
+                </div>
+
+                <!-- Second Semester -->
+                <button class="semester-toggle">Second Semester</button>
+                <div class="semester-content" data-semester="second" data-level="400" style="display: none;">
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPP 402')">
+                        <h3>Veterinary Toxicology - VPP 402</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VTG 402')">
+                        <h3>Ruminant Production & Health - VTG 402</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VTG 404')">
+                        <h3>Rabbit & Swine Production - VTG 404</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPH 406')">
+                        <h3>Veterinary Epidemiology - VPH 402</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VPH 404')">
+                        <h3>Environmental Health - VPH 404</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMP 402')">
+                        <h3>Systemic Veterinary Pathology - VMP 402</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMP 404')">
+                        <h3>Special Veterinary Pathology - VMP 404</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMP 406')">
+                        <h3>Avian & Fish Pathology - VMP 406</h3>
+                    </div>
+
+                    <div class="subject-card level-400" onclick="openLink('https://drive.google.com/VMS 402')">
+                        <h3>Veterinary Anaesthesiology - VMS 402</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       <section class="level-section">
+            <button class="collapsible">500 Level</button>
+            <div class="content">
+                <div class="search-container">
+                    <input type="text" id="search500" placeholder="Search 500 Level Courses..." onkeyup="filterSubjects('500')">
+                </div>
+
+                <!-- First Semester -->
+                <button class="semester-toggle">First Semester</button>
+                <div class="semester-content" data-semester="first" data-level="500" style="display: none;">
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VPP 501')">
+                        <h3>Clinical Pharmacology - VPP 501</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 505')">
+                        <h3>Soft Tissue Surgery - VMS 505</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VPH 503')">
+                        <h3>Zoonoses - VPH 503</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VPH 501')">
+                        <h3>Food Hygiene & Animal By-products - VPH 501</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VPH 505')">
+                        <h3>Preventive Veterinary Medicine - VPH 505</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 507')">
+                        <h3>Large Animal Surgery - VMS 507</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VTG 501')">
+                        <h3>Veterinary Gynaecology - VTG 501</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VTG 503')">
+                        <h3>Veterinary Obstetrics - VTG 503</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VAN 501')">
+                        <h3>Applied Veterinary Anatomy - VAN 501</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 503')">
+                        <h3>Ruminant Medicine - VMS 503</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 501')">
+                        <h3>Small Animal Medicine I - VMS 501</h3>
+                    </div>
+                </div>
+
+                <!-- Second Semester -->
+                <button class="semester-toggle">Second Semester</button>
+                <div class="semester-content" data-semester="second" data-level="500" style="display: none;">
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 512')">
+                        <h3>Wildlife & Lab Animal Medicine - VMS 512</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 512')">
+                        <h3>Veterinary Radiology - VMS 512</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VPH 502')">
+                        <h3>Vet. Ethics, Jurisprudence & Extension - VPH 502</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMP 502')">
+                        <h3>Clinical Pathology - VMP 502</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 504')">
+                        <h3>Equine & Porcine Medicine - VMS 504</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 506')">
+                        <h3>Avian & Fish Medicine - VMS 506</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 518')">
+                        <h3>Veterinary Orthopaedics - VMS 518</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 502')">
+                        <h3>Small Animal Medicine II - VMS 502</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VMS 510')">
+                        <h3>Lameness & Soundness - VMS 510</h3>
+                    </div>
+
+                    <div class="subject-card level-500" onclick="openLink('https://drive.google.com/VTG 504')">
+                        <h3>Andrology & Artificial Insemination - VTG 504</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       <section class="level-section">
+            <button class="collapsible">600 Level</button>
+            <div class="content">
+                <div class="search-container">
+                    <input type="text" id="search600" placeholder="Search 600 Level Courses..." onkeyup="filterSubjects('600')">
+                </div>
+
+                <!-- First Semester -->
+                <button class="semester-toggle">First Semester</button>
+                <div class="semester-content" data-semester="first" data-level="600" style="display: none;">
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VPP 602')">
+                        <h3>Veterinary Pharmacy & Toxicology - VPP 602</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VMS 601')">
+                        <h3>Large Animal Clinic I - VMS 601</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VMS 603')">
+                        <h3>Small Animal Clinics I - VMS 603</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VMS 605')">
+                        <h3>Avian, Wildlife & Fishery Clinics I - VMS 605</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/drive/folders/1FQ9dYak31UL8yZmvmPBhTlcXISy8-fgY?usp=drive_link')">
+                        <h3>Veterinary Diagnostic Clinic I - VMP 601</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VPH 601')">
+                        <h3>Veterinary Public Health I - VPH 601</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VPH 603')">
+                        <h3>Computer Application in Vet. Medicine - VPH 603</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VTG 601')">
+                        <h3>Theriogenology Clinics I - VTG 601</h3>
+                    </div>
+                </div>
+
+                <!-- Second Semester -->
+                <button class="semester-toggle">Second Semester</button>
+                <div class="semester-content" data-semester="second" data-level="600" style="display: none;">
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VPP 602')">
+                        <h3>Veterinary Pharmacy & Toxicology II - VPP 604</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VMS 602')">
+                        <h3>Large Animal Clinic II - VMS 602</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VMS 604')">
+                        <h3>Small Animal Clinics II - VMS 604</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VMS 606')">
+                        <h3>Avian, Wildlife & Fishery Clinics II - VMS 606</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VMP 601')">
+                        <h3>Veterinary Diagnostic Clinic II - VMP 602</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VPH 601')">
+                        <h3>Veterinary Public Health II - VPH 602</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VPH 603')">
+                        <h3>Livestock Economics & Entrepreneurship - VPH 604</h3>
+                    </div>
+
+                    <div class="subject-card level-600" onclick="openLink('https://drive.google.com/VTG 601')">
+                        <h3>Theriogenology Clinics II - VTG 602</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about-section">
+            <h2>About Nel VetVault</h2>
+            <p>Hi, I'm <strong>Nelson</strong>, a final-year veterinary Medicine student of University of Jos.</p>
+            <p>I created <strong>Nel VetVault</strong> out of a genuine desire to make studying easier, faster, and more organized for fellow Vet Medicine students. 
+                I understand how overwhelming it can be to find and organize study resources- because I've been there too.</p>
+            <p>This platform gives you quick access to past questions, lecture notes, and helpful visuals- all neatly structured by level and courses.</p>
+            <p>I hope you use it actively, share it with others, and even contribute to help grow the vault. Together, we can make veterinary knowledge more accessible.</p>
+            <p class="creator-signature"> Nelson 💚</p>
+        </section>
+
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
